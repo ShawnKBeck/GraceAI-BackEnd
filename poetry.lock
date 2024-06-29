@@ -59,6 +59,16 @@ test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypo
 trio = ["trio (>=0.23)"]
 
 [[package]]
+name = "app"
+version = "0.0.1"
+description = "a simple egg"
+optional = false
+python-versions = "*"
+files = [
+    {file = "app-0.0.1.zip", hash = "sha256:214549e746d777292d807eec7713c2cea332e08e037c923cd61ee1d5ab7a127f"},
+]
+
+[[package]]
 name = "argparse"
 version = "1.4.0"
 description = "Python command-line parsing library"
@@ -1390,4 +1400,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "97c1240352f2572841c32ad96a25a440bd8232a17300f20021595cf33b35a9e8"
+content-hash = "2f3a1f33c0492152876e3bf75fb0f4264d9f38b9c5ca996ff662f80d57ad68e9"
